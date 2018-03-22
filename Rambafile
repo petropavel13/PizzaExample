@@ -1,0 +1,28 @@
+### Headers settings
+company: Touch Instinct
+
+### Xcode project settings
+project_name: PizzaExample
+xcodeproj_path: PizzaExample.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: PizzaExample
+
+# The file path for new modules
+project_file_path: PizzaExample/Controllers
+
+# The Xcode group path to new modules
+project_group_path: PizzaExample/Controllers
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Catalog
+catalogs:
+- 'https://github.com/TouchInstinct/generamba_templates'
+
+### Templates
+templates:
+- {name: touchin}
+- {name: touchin-tablecell}
